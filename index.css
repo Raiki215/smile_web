@@ -1,0 +1,10 @@
+.seminar_title {
+    text-align: center;
+}
+
+.seminar_ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+}
