@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactform.css">
+    <link rel="stylesheet" href="base.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>お問い合わせ</h1>
+        <p>下記に必要事項をご記入の上、お問い合わせください</p>
+        <form>
+            <label><p>名前 <span>※必須</span></p><input type="text"name="name"class="input"></label>
+            <label><p>会社名</p><input type="text"name="company"class="input"></label>
+            <label><p>メールアドレス <span>※必須</span></p><input type="email"name="email"class="input"></label>
+            <label><p>電話番号 <span>※必須</span></p><input type="tel"name="tel"class="input"></label>
+            <p>性別<span>※必須</span></p><label>男<input type="radio"name="gender"></label><label>女<input type="radio"name="gender"class="radio"></label>
+            <label><p>依頼内容 <span>※必須</span></p><textarea></textarea></label>
+            <p></p>
+            <input type="submit"class="button">
+        </form>
+    </main>
+</body>
+</html>
