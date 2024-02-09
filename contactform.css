@@ -1,0 +1,30 @@
+span {
+    color: #FF0202;
+}
+body{
+    text-align: center;
+}
+
+.button{
+    background-color: rgba(255,14,14,0.38);
+    border-radius: 15%;
+    border: 1px solid black;
+    width:90px;
+    height: 30px;
+    font-size: 20px;
+}
+form p{
+    text-align: left;
+    margin-left: 27%;
+}
+.radio{  
+    margin-right: 40%;
+} 
+.input{
+    width: 45%;
+    height: 30px;
+}
+textarea{
+    width: 45%;
+    height: 100px;
+}
