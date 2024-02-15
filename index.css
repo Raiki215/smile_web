@@ -46,27 +46,36 @@
 }
 
 /*お客様の声*/
-
 .base_box,
 .base_box2,
 .base_box3,
 .base_box4 {
     position: relative;
+    width: 400px;
+    height: 150px;
+    /* border: 1px solid black; */
 }
+
+
 
 .base_box,
 .base_box3 {
     left: 150px;
 }
 
-.base_box2,
-.base_box4 {
+.base_box2
+{
+    top: -150px;
     left: 650px;
 }
 
-.base_box3,
+.base_box3 {
+    top: -50px;
+}
+
 .base_box4 {
-    top: 250px
+    top: -200px;
+    left: 650px;
 }
 
 .box,
@@ -84,6 +93,10 @@
     background-color: #FFEFEF;
     z-index: 4;
 }
+/*
+.base_box3 div:nth-of-type(1) {
+    padding: 0 0 100px 0;
+} */
 
 .box2 {
     left: 10px;
@@ -124,33 +137,3 @@
     display: flex;
     margin: 30px 0px 0px 300px;
 }
-
-/*
-.tr {
-    position: relative;
-}
-
-.tr2, .tr3 {
-    position: absolute;
-}
-
-.tr2 {
-    width: 0;
-    height: 0;
-    left: 5px;
-    top: 2px;
-    border-left: 30px solid transparent;
-    border-right: 31px solid transparent;
-    border-bottom: 31px solid transparent;
-    border-top: 30px solid white;
-    z-index: 10;
-}
-
-.tr3 {
-    width: 0;
-    height: 0;
-    border-left: 35px solid transparent;
-    border-right: 36px solid transparent;
-    border-bottom: 35px solid transparent;
-    border-top: 35px solid #C1B4D0;
-} */
