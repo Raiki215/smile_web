@@ -1,9 +1,86 @@
+
+#profile img {
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+#profile h1 {
+    color: #F291AB;
+}
+.top{
+    position: relative;
+}
+.top img{
+    width:100%;
+}
+.top p{
+    position: absolute;/*絶対配置*/
+    top: 0;
+    left: 0;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile h1 {
+    margin: 0 0 10px 0;
+}
+
+/* 
+.flex_direction {
+    flex-direction: column;
+}  */
+
+.flex_direction h1, h3, h4{
+    margin: 0 0 0 100px;
+}
+
+.img_profile img {
+    width: 500px;
+    height: 500px;
+}
+.flex_direction p {
+    margin: 0.5em 100px 0.5em  100px; /* 上下に1em・左右に0px */
+}
+
 .seminar_title,
 .lecture_title,
 .voice_title {
     text-align: center;
 }
 
+
+.smile {
+    display: flex;
+}
+
+.img1 {
+    margin: 0 0 0 300px;
+}
+
+.img2 {
+    margin: 0 0 0 265px;
+}
+
+.img3 {
+    margin: 0 0 0 280px;
+}
+.achieve {
+    text-align: center;
+}
+/* 
+.smile img {
+    margin: 0 0 0 300px;
+} */
+
+.smile_p {
+    flex-direction: column;
+}
+
+.img1 p {
+    width: 450px;
+}
 
 /*セミナー内容*/
 .seminar_div {
