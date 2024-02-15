@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+footer{
+    font-family: "游明朝";
+    background-color: #FFC0C6;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    background-color: #FFDBDF;
+    width: 30%;
+    height: 60px;
+    font-size: 1.4rem;
+    font-family: "游明朝";
+    border: 1px solid;
+}
+footer p {
+    border-bottom: 1px solid; 
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mail{
+    margin-left: 46%;
+}
+.contact{   
+     display: flex;
+     margin-right: 14%;
+} 
+#instagram{
+    margin-left: 30%;
+}
