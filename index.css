@@ -1,0 +1,26 @@
+#profile img {
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+#profile h1 {
+    color: #F291AB;
+}
+.top{
+    position: relative;
+}
+.top img{
+    width:100%;
+}
+.top p{
+    position: absolute;/*絶対配置*/
+    top: 0;
+    left: 0;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+}
+.flex_direction {
+    flex-direction: column;
+}
